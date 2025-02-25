@@ -3,9 +3,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Shawn</title>
+    <title>James Ziemer - Resume</title>
+    <style>
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-image: url('https://example.com/background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-info a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .contact-info img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .timeline {
+            position: relative;
+            margin: 20px 0;
+            padding: 0;
+            list-style: none;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #007acc;
+            left: 20px;
+            margin-left: -1.5px;
+        }
+        .timeline-item {
+            margin: 20px 0;
+            padding-left: 40px;
+            position: relative;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #007acc;
+            left: 15px;
+            top: 5px;
+        }
+        .timeline-item h3 {
+            margin-top: 0;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill {
+            background: #007acc;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        .skill:hover {
+            background: #005f99;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello Shawn</h1>
+    <div class="header">
+        <h1>James Ziemer</h1>
+        <div class="contact-info">
+            <p>
+                <a href="mailto:resume@jziemer.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"></a>
+                <a href="https://www.linkedin.com/in/jziemer-it" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <h2>Summary</h2>
+            <p>With a background in information technology, I have experience in database management, network administration, and enterprise solutions. I am eager to expand my knowledge and currently pursuing certifications to further develop my skills.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Experience</h2>
+            <ul class="timeline">
+                <li class="timeline-item">
+                    <h3>Henry Schein One</h3>
+                    <div>
+                        <p><strong>Enterprise Technical Support III</strong> - March 2018 - Present</p>
+                        <p>Progressing through multiple technical support roles over six years, advancing from frontline support, next level help, to enterprise support, where I specialized in MSSQL, client operations, and multi-site configuration. I provided advanced troubleshooting, guided Tier 1 and 2 technicians, and optimized workflows for enterprise environments while maintaining internal and customer-facing documentation. Additionally, I supported eServices integrations, managed software installations and upgrades, and ensured system compatibility across diverse IT environments.</p>
+                    </div>
+                    <div>
+                        <p><strong>Technical Support Specialist III</strong> - May 2019 - March 2020</p>
+                        <p>Transitioned into an advanced support role to provide in-depth troubleshooting and guide Tier 1 and Tier 2 support technicians in resolving escalated issues. Participated in onboarding and training programs to enhance product knowledge and remain updated on support standards and best practices. Coordinated scheduled installation communications, ensuring internal teams and customers were fully prepared for successful upgrades.</p>
+                    </div>
+                    <div>
+                        <p><strong>Technical Support Specialist II</strong> - August 2018 - May 2019</p>
+                        <p>Identified and addressed software compatibility issues within FAT client environments to support single-clinic practices. Worked closely with clients to ensure efficient and seamless operation of practice management software. Delivered training and shared knowledge with Tier 1 support technicians to enhance overall team effectiveness. Expanded responsibilities to include eServices support, such as billing, patient communication (email, text, paper, and kiosks), credit card payments, and other related services.</p>
+                    </div>
+                    <div>
+                        <p><strong>Technical Support Specialist</strong> - March 2018 - August 2018</p>
+                        <p>Offered frontline technical support to single-clinic practices, addressing basic software and hardware concerns. Escalated complex issues to higher-tier support while maintaining clear communication with customers. Delivered excellent customer service and ensured timely resolution of common technical issues.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <h3>Fry's Electronics</h3>
+                    <div>
+                        <p><strong>Electronic Components Department Manager</strong> - July 2016 - March 2018 (1 year 9 months)</p>
+                        <p>Managed department operations, including staff scheduling, training, and resource allocation to ensure efficiency. Oversaw product flow and inventory management to meet departmental goals. Took feedback from inside the department and externally to develop and implement organizational systems to reduce frictions in workflow.</p>
+                    </div>
+                    <div>
+                        <p><strong>Electronic Components Department Supervisor</strong> - February 2014 - July 2016 (2 years 6 months)</p>
+                        <p>Supported sales associates in handling customer inquiries and escalations. Delivered on-the-spot training to enhance staff expertise in products and technical solutions. Continued to assist customers directly on the sales floor, providing technical guidance and tailored product recommendations to meet their needs.</p>
+                    </div>
+                    <div>
+                        <p><strong>Sales Associate</strong> - June 2012 - February 2014 (1 year 9 months)</p>
+                        <p>Provided direct customer support for technical inquiries, including troubleshooting routers, switches, PoE injectors, range extenders, and basic RAID configurations, HDD recovery options, data backups, email setup, home security systems, and more. Assisted customers with product selection, from a wide range of topics as CPU/GPU recommendations, home automation solutions, networking, and more. Delivered excellent customer service and emphasized salesmanship to meet customer needs and drive sales.</p>
+                    </div>
+                </li>
+                <li class="timeline-item">
+                    <h3>US Army</h3>
+                    <p><strong>25B Information Technology Specialist</strong> - June 2008 - June 2014</p>
+                    <p>I served six years in the military as a Signal Corps specialist, focusing on advanced communications technology and systems. After completing nine months of precision training at Fort Gordon, Georgia, I managed a CISCO call manager for phone communications and integrated satellite trailer technology. Additionally, I provided technical support and troubleshooting for various military communication systems.</p>
+                </li>
+                <li class="timeline-item">
+                    <h3>Geek Squad</h3>
+                    <p><strong>Agent</strong> - June 2009 - July 2010</p>
+                    <p>Performed computer maintenance, setup, and repairs independently, utilizing specialized tools for first-time installations and configurations. My responsibilities included malware removal, data recovery, hardware support, and peripheral setup, ensuring optimal system performance. Additionally, I provided clear guidance on email, printer, and device configurations, helping users navigate technical issues efficiently.</p>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Fox Valley Technical College</strong> - Truck and Commercial Vehicle Operator (2014)</p>
+            <p><strong>US Army Signal Center and Fort Gordon</strong> - Military Occupational Specialty, 25B - Information Technology Specialist</p>
+        </div>
+        
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">IT Support & Troubleshooting</div>
+                <div class="skill">Database Management</div>
+                <div class="skill">Networking (Subnetting, VLANs, Device Provisioning)</div>
+                <div class="skill">Technical Documentation & Knowledge Base Maintenance</div>
+                <div class="skill">Cybersecurity Awareness</div>
+                <div class="skill">Technical Communication & End-User Support</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Goals</h2>
+            <p>Continuous growth in information technology remains a core focus, with a dedication to solving complex challenges, optimizing infrastructure, and enhancing security and reliability. Contributing to innovative solutions while collaborating with skilled professionals creates opportunities to share knowledge, mentor others, and drive meaningful improvements. Actively seeking opportunities to achieve and maintain IT certifications ensures ongoing development, keeping skills sharp and aligned with industry advancements. Staying engaged with emerging technologies further strengthens the ability to provide lasting value in enterprise environments.</p>
+        </div>
+    </div>
 </body>
 </html>
